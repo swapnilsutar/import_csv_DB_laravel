@@ -9,7 +9,7 @@ body{
     margin: auto;
 }
 .nav-link:hover{
-    color:black!important;
+    color:white!important;
 }
 .nav-item{
     transition: 1s;
@@ -17,7 +17,8 @@ body{
     padding-right: 20px;
 }
 .nav-item:hover {
-    background-color: rgba(255, 255, 255, 0.623);
+    border: 1px solid white;
+    /* background-color: rgba(255, 255, 255, 0.623); */
 }
 .table_data{
     text-align: center;
@@ -41,4 +42,10 @@ body{
     border:none;
     color:black;
     background-color: transparent!important;
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 100px;
 }

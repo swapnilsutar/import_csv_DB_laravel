@@ -36,4 +36,4 @@ Route::post('add_student',[StudentController::class,'insert']);
 
 Route::get('/admin', [StudentController::class,'adminimport']);
 
-Route::post('/import',[StudentController::class,'import'])->name('student.import');
+Route::post('/view_all',[StudentController::class,'import'])->name('student.import');

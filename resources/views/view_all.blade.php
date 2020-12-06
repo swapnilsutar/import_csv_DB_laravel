@@ -5,6 +5,12 @@
 <br>
 <div class="container">
 
+    @if (session()->has('status'))
+        <div class="alert alert-success">
+            <h3>{{ session()->get('status') }}</h3>
+        </div>
+    @endif
+
     <h1 class="text-center"> Student Information </h1>
     <br><br>
     <div class="table_data  justify-content-center d-flex">

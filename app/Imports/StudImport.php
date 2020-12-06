@@ -16,7 +16,6 @@ class StudImport implements ToModel, WithHeadingRow
     public function model(array $row)
     {
         return new Student([
-            'id'=>$row['id'],
             'first_name'=>$row['first_name'],
             'last_name'=>$row['last_name'],
             'class_name'=>$row['class_name'],

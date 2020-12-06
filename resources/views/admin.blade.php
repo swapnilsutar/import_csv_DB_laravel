@@ -1,4 +1,6 @@
-@include('master')
+@extends('master')
+
+@section('content')
 
 <div class="container">
 <br><br>
@@ -12,6 +14,6 @@
     <button type="submit" class="btn btn-success btn-block" >Submit</button>
     </form>
 
-
-
 </div>
+
+@endsection

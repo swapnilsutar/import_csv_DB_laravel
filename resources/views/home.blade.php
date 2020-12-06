@@ -9,7 +9,7 @@
 
     @if (session()->has('status'))
         <div class="alert alert-success">
-            <h1>{{ session()->get('status') }}</h1>
+            <h3>{{ session()->get('status') }}</h3>
         </div>
     @endif
 

@@ -34,9 +34,13 @@ class StudentController extends Controller
     } 
 
     public function import(Request $req){
+        
         Excel::import(new StudImport,$req->file);
 
-        return "Record Imported Successfully";
+        $data = Student::orderBy('id', 'desc') -> paginate(10);
+
+
+        return redirect('view_all')->with("status","Your CSV file uploaded Successfully");
 
     }
 
