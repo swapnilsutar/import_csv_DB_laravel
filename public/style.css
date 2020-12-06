@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(183 255 230 / 54%);
+}
+.navbar{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.548);
+}
+.nav-link{
+    padding: 10px;
+    margin: auto;
+}
+.nav-link:hover{
+    color:black!important;
+}
+.nav-item{
+    transition: 1s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.623);
+}
+.table_data{
+    text-align: center;
+
+}
+.table_data th,td{
+    padding: 10px;
+
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    background: none;
+    box-shadow: none!important;
+}
+.page-item.active .page-link{
+    color:green;
+    font-weight: 700;
+}
+.page-link{
+    border:none;
+    color:black;
+    background-color: transparent!important;
+}
